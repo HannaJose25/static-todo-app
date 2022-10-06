@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="one.css" type="text/css" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body class="d-flex justify-content-center align-items-center">
+    <div class="outer">
+        <div style="width: fit-content; " class="mx-auto mb-4 d-flex align-items-center" >
+            <i class="fa-solid fa-square-check " style="font-size: 4em; color: #0379FF"></i>
+            <h1 class="mb-0 ml-1" style="width: fit-content;color: #3275B9; display: inline;" >My Todo-s</h1>
+        </div>
+        
+        <div class="outerone mx-auto row p-3 mb-5" style="background-color:white">
+            <input type="text" class="input mx-auto mb-2" placeholder="Add new.."  class="col-md-9">
+            <input type="date" class="col-md-2 mb-3" style="border: none;" >
+            <button class="btn btn-small col-md-1" style=" background-color: #0379FF; color: white;">Add</button>        
+        </div>
+        <hr class="mt-5"/>
+
+        <div style="min-width: 50%; " class="col-md-6 ml-auto text-right mb-2">
+            <label for="cars">Filter</label>
+            <select name="cars" id="cars" class="col-3" >
+                <option value="volvo">All</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select>
+            <label for="cars" class="ml-2">sort</label>
+            <select name="cars" id="cars" class="col-3 ">
+                <option value="volvo">Added date</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select>
+        </div>
+        <div >
+            <label class="container">
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+                <p class="ml-3">do maths homewrk for next day</p> 
+            </label>
+            <label class="container">
+                <input type="checkbox" />
+                <span class="checkmark">
+                </span>
+               <p class="ml-3">donte bld</p>
+                <button class="px-2" style="width: fit-content;float: right;border: 2px solid #0379FF;background: #0379FF;border-radius: 10px;color: #fff;" >28th June 2020</button>
+            </label>
+            <label class="container">
+                <input type="checkbox"/>
+                <span class="checkmark"></span>
+               <p class="ml-3">watch strngrthng</p>
+            </label>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
